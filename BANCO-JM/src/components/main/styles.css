@@ -1,0 +1,22 @@
+hr{
+    margin: 5px 0;
+}
+
+.bloco{
+    width: 100%;
+    background-color: #F5F5F5;
+    margin: auto;
+}
+
+.caixa-bloco{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.caixa-bloco h3{
+    color: var(--cor-primaria);
+}
+
+.caixa-bloco p{
+    color: var(--cor-secundaria);
+}

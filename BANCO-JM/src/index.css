@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+:root{
+  --cor-primaria: #0066FF;
+  --cor-secundaria: #002233;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #d6d6d6;
+}
+
+@media screen and (min-width: 700px) {
+  .caixa-banner{
+      font-size: 20px;
+  }
+
+  .caixa-bloco{
+      font-size: 20px;
+  }
+
+  .card-container{
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  .card{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      min-height: 250px;
+      width: 150px;
+      font-size: 18px;
+      margin: 0;
+  }
+
+  .card:hover{
+      background-image: linear-gradient(to bottom, var(--cor-primaria), var(--cor-secundaria)50%);
+      color: white;
+  }
+
+  .card:hover svg,
+  .card:hover p{
+      color: white;
+  }
+
+  .info-container{
+      flex-direction: row;
+      gap: 10px;
+      padding: 10px;
+  }
+
+  .info{
+      height: 220px;
+      font-size: 16px;
+  }
+
+  .info p{
+      font-size: 18px;
+  }
+
+  p.numero{
+      font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .caixa-banner{
+      font-size: 24px;
+  }
+
+  .caixa-bloco{
+      font-size: 24px;
+  }
+
+  .card{
+      min-height: 350px;
+      width: 230px;
+      font-size: 22px;
+  }
+
+  .bloco-dois{
+      font-size: 22px;
+  }
+
+  .input-container input{
+      width: 50%;
+  }
+
+  .input-container label, .produto p, .bloco-dois a{
+      font-size: 18px;
+  }
+
+  .produto{
+      font-size: 20px;
+  }
+
+  .setas{
+      font-size: 40px;
+  }
+
+  .info{
+      font-size: 20px;
+      height: 280px;
+      width: 350px;
+  }
+
+  .info p{
+      font-size: 22px;
+  }
+
+  p.numero{
+      font-size: 40px;
+  }
+
+  .caixa-icons a{
+      font-size: 30px;
+  }
+
+  .formulario input, label, #estado-select{
+      font-size: 20px;
+  }
+}

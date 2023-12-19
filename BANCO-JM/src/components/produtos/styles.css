@@ -1,0 +1,42 @@
+.produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 10px auto;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.238);
+    color: var(--cor-secundaria);
+}
+
+.titulo-produto{
+    font-weight: 600;
+}
+
+.titulo-produto, span{
+    font-size: 18px;
+}
+
+.produto a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.setas{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--cor-secundaria);
+    gap: 5px;
+}
+
+.seta{
+    cursor: pointer;
+}

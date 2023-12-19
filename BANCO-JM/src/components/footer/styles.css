@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: var(--cor-primaria);
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.caixa-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.caixa-icons a{
+    text-decoration: none;
+    color: unset;
+}

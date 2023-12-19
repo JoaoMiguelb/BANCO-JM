@@ -1,0 +1,55 @@
+.convite{
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.convite input{
+    width: 90%;
+    background-color: unset;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+ 
+.link{
+    text-decoration: none;
+    background-color: white;
+    color: var(--cor-secundaria);
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.link:hover{
+    background-color: #C4C4C4;
+}
+
+.input-container {
+    position: relative;
+}
+
+input ~ label {
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    transition: top 0.3s ease, left 0.3s ease, font-size 0.3s ease;
+    background-color: var(--cor-secundaria);
+    padding: 1px;
+    text-align: center;
+}
+
+.convite input:focus ~ label {
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+}
