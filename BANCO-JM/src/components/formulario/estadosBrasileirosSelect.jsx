@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { useEstadoContext } from '../../hooks/useEstadoContext';
 
 const EstadosDoBrasilSelect = () => {
