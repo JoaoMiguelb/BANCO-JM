@@ -1,7 +1,10 @@
 ## Bem-vindo ao Banco JM 🏦
 
+### Link para vizualicação
+https://banco-jm.vercel.app
+
 ### Visão Geral
-Sou João Miguel, e desenvolvi o **Banco JM** de forma completa e independente, desde o design até o funcionamento da plataforma.
+Sou João Miguel, e desenvolvi o **Banco JM** de forma completa e independente, desde o design até o funcionamento da plataforma, utilizando o React Js e suas bibliotecas como react-router-dom e react-icons.
 
 ### Inspiração
 Meu projeto foi inspirado em diversos bancos líderes do mercado, como Nubank, BV e Santander, com o objetivo de incorporar as melhores práticas e proporcionar uma experiência de usuário excepcional.
@@ -19,3 +22,4 @@ Obrigado por explorar o projeto Banco JM.
 
 Atenciosamente,
 João Miguel O dos Santos
+
